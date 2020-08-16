@@ -1,0 +1,11 @@
+{
+  "name": "shorten-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.0.3",
+    "js-base64": "^3.4.5",
+    "shortid": "^2.2.15"
+  }
+}

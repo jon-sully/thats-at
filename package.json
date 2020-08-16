@@ -1,0 +1,12 @@
+{
+  "name": "thats-at",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jon Sullivan <hey@jonsully.net>",
+  "license": "MIT",
+  "dependencies": {},
+  "homepage": "https://thats.at",
+  "scripts": {
+    "build": "cd serverless/shorten-new && yarn && cd .. && cd manual-redirect && yarn && cd ../.. && yarn"
+  }
+}

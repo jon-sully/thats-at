@@ -1,0 +1,28 @@
+/Pj5yfBubt https://player.vimeo.com/video/375468729?autoplay=1
+/lCjjh8kDz https://www.youtube.com/watch?v=dQw4w9WgXcQ
+/BBT20-iBM https://github.com/netlify/build/blob/master/packages/build/src/plugins_core/functions_install/plugin.js
+/WPUq9jBOf https://github.com/sw-yx/spark-joy
+/J1_bW90SD https://orno.co.uk/
+/ee1t0mUTE https://www.example.com/
+/vMN2R06-l http://www.ikesmartcity.com/
+/qUzRQatDB https://www.latlmes.com/breaking/your-sensational-news-headline-here-1
+/FbTqhxuRk https://youtube.com
+
+# Jon's personal links
+/c/redirect-to-splat https://community.netlify.com/t/redirect-to-function-splat-is-not-working-as-expected/
+/c/identity-and-functions https://community.netlify.com/t/questions-about-netlify-identity-serverless-functions/
+/c/identity-cookies-jwt-_redirects https://community.netlify.com/t/gated-content-not-working-in-chrome-or-chredge/
+/c/deploys-live-forever https://community.netlify.com/t/does-each-deploy-preview-stay-available-forever/
+/c/me-current-state https://community.netlify.com/t/netlify-newbie-current-state-of-forms-functions-env-contexts-dev-april-2020/13602
+/c/rewrite-to-function-query-string-parm https://community.netlify.com/t/redirect-to-function-splat-is-not-working-as-expected/20975/9
+/c/react-domserver-hydrate-flow https://community.netlify.com/t/ssr-with-netlify-functions-not-hydrating/
+/c/next-vs-gatsby-plus-isr https://community.netlify.com/t/next-js-isr-support/
+
+/netlify-functions-examples https://functions.netlify.com/examples
+/netlify-gotrue-examples https://gotruejs-playground.netlify.app
+
+# Resolve /new to function
+/new /.netlify/functions/shorten-new 200
+
+# Not-yet built redirects should proxy to function (shadowing)
+/* /.netlify/functions/manual-redirect 200

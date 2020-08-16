@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="JAMstack URL Shortener">
+  <meta name="author" content="@jon-sully">
+  <title>That's At...</title>
+  <link href="/bootstrap.min.css" rel="stylesheet">
+  <style>
+    a,
+    a:focus,
+    a:hover {
+      color: #fff;
+    }
+  
+    .btn-secondary,
+    .btn-secondary:hover,
+    .btn-secondary:focus {
+      color: #333;
+      text-shadow: none;
+      background-color: #fff;
+      border: .05rem solid #fff;
+    }
+  
+    html,
+    body {
+      height: 100%;
+      background-color: rgba(77, 170, 159);
+    }
+  
+    body {
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-pack: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    }
+  
+    .lander-container {
+      max-width: 42em;
+    }
+  
+    .head {
+      margin-bottom: 2rem;
+    }
+  
+    .head-brand {
+      margin-bottom: 0;
+    }
+  
+    .nav-head .nav-link {
+      padding: .25rem 0;
+      font-weight: 700;
+      color: rgba(255, 255, 255, .5);
+      background-color: transparent;
+      border-bottom: .25rem solid transparent;
+    }
+  
+    .nav-head .nav-link:hover,
+    .nav-head .nav-link:focus {
+      border-bottom-color: rgba(255, 255, 255, .25);
+    }
+  
+    .nav-head .nav-link+.nav-link {
+      margin-left: 1rem;
+    }
+  
+    .nav-head .active {
+      color: #fff;
+      border-bottom-color: #fff;
+    }
+  
+    @media (min-width: 48em) {
+      .head-brand {
+        float: left;
+      }
+  
+      .nav-head {
+        float: right;
+      }
+    }
+  
+    .lander {
+      padding: 0 1.5rem;
+    }
+  
+    .lander .btn-lg {
+      padding: .75rem 1.25rem;
+      font-weight: 700;
+    }
+  
+    .foot {
+      color: rgba(255, 255, 255, .5);
+    }
+  </style>
+</head>
+
+<body class="text-center">
+
+  <div class="lander-container d-flex h-100 p-3 mx-auto flex-column">
+    <header class="head mb-auto">
+      <div class="inner">
+        <a href="/">
+          <h3 class="head-brand">That's At...</h3>
+        </a>
+      </div>
+    </header>
+
+    <main role="main" class="inner lander">
+      <h1 class="lander-heading">Shorten Your URL</h1>
+      <p class="lead">
+      <form method="POST" class="py-2" action="/new">
+        <input type="text" class="form-control" id="url-to-shorten" aria-describedby="Input for URL to shorten"
+          placeholder="Enter URL" name="url">
+        <button class="btn btn-md btn-secondary mt-2">Go</button>
+      </form>
+      </p>
+    </main>
+
+    <footer class="foot mt-auto">
+      <div class="inner">
+        <p>
+          By <a href="https://jonsully.net" target="_blank">@jon-sully</a> |
+          <a href="https://github.com/jon-sully/thats-at" target="_blank">See the Code</a> |
+          <a href="https://github.com/jon-sully/thats-at/blob/master/public/_redirects" target="_blank">See All</a>
+        </p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
