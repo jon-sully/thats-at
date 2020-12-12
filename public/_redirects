@@ -9,7 +9,8 @@
 /qUzRQatDB https://www.latlmes.com/breaking/your-sensational-news-headline-here-1
 /FbTqhxuRk https://youtube.com
 
-# Jon's personal links
+# Jon's personal links ------
+## Netlify Community Highlights
 /c/redirect-to-splat https://community.netlify.com/t/redirect-to-function-splat-is-not-working-as-expected/
 /c/identity-and-functions https://community.netlify.com/t/questions-about-netlify-identity-serverless-functions/
 /c/identity-cookies-jwt-_redirects https://community.netlify.com/t/gated-content-not-working-in-chrome-or-chredge/
@@ -19,8 +20,10 @@
 /c/react-domserver-hydrate-flow https://community.netlify.com/t/ssr-with-netlify-functions-not-hydrating/
 /c/next-vs-gatsby-plus-isr https://community.netlify.com/t/next-js-isr-support/
 
+## Other Random Stuff
 /netlify-functions-examples https://functions.netlify.com/examples
 /netlify-gotrue-examples https://gotruejs-playground.netlify.app
+/meta https://jonsully.net/blog/a-very-jamstacky-url-shortener-redirector/
 
 # Resolve /new to function
 /new /.netlify/functions/shorten-new 200
