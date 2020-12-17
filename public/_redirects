@@ -19,6 +19,7 @@
 /c/rewrite-to-function-query-string-parm https://community.netlify.com/t/redirect-to-function-splat-is-not-working-as-expected/20975/9
 /c/react-domserver-hydrate-flow https://community.netlify.com/t/ssr-with-netlify-functions-not-hydrating/
 /c/next-vs-gatsby-plus-isr https://community.netlify.com/t/next-js-isr-support/
+/c/async-functions-after-return https://community.netlify.com/t/send-response-before-stopping-function/5016/16
 
 ## Other Random Stuff
 /netlify-functions-examples https://functions.netlify.com/examples
