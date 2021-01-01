@@ -14,6 +14,7 @@
 ## Netlify Community Highlights
 /c/redirect-to-splat https://community.netlify.com/t/redirect-to-function-splat-is-not-working-as-expected/
 /c/identity-and-functions https://community.netlify.com/t/questions-about-netlify-identity-serverless-functions/
+/c/identity-and-role-gated-redirects https://community.netlify.com/t/problems-with-redirect-jwt-role-gated-pages-on-edge/20111/1
 /c/identity-cookies-jwt-_redirects https://community.netlify.com/t/gated-content-not-working-in-chrome-or-chredge/
 /c/deploys-live-forever https://community.netlify.com/t/does-each-deploy-preview-stay-available-forever/
 /c/me-current-state https://community.netlify.com/t/netlify-newbie-current-state-of-forms-functions-env-contexts-dev-april-2020/13602
@@ -21,6 +22,7 @@
 /c/react-domserver-hydrate-flow https://community.netlify.com/t/ssr-with-netlify-functions-not-hydrating/
 /c/next-vs-gatsby-plus-isr https://community.netlify.com/t/next-js-isr-support/
 /c/async-functions-after-return https://community.netlify.com/t/send-response-before-stopping-function/5016
+/c/pretty-urls-url-routing-and-trailing-slashes https://community.netlify.com/t/pretty-urls-url-routing-and-trailing-slashes/29261
 
 ## Other Random Stuff
 /netlify-functions-examples https://functions.netlify.com/examples
