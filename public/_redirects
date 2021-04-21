@@ -36,6 +36,7 @@
 /netlify-functions-examples https://functions.netlify.com/examples
 /netlify-gotrue-examples https://gotruejs-playground.netlify.app
 /meta https://jonsully.net/blog/a-very-jamstacky-url-shortener-redirector/
+/rwp1 https://jonsully.net/blog/rails-wizards-part-one/
 
 # Resolve /new to function
 /new /.netlify/functions/shorten-new 200
